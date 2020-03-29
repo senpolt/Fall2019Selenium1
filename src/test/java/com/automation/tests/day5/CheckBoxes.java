@@ -30,14 +30,15 @@ public class CheckBoxes {
 
                 //if checkbox is not selected, click on it
                 checkBoxes.get(i).click(); // click on the checkbox
-                System.out.println(i+1 +" checkbox clicked!");
-            } else{
+                System.out.println(i + 1 + " checkbox clicked");
+            } else {
 
-                System.out.println(i+1 +" checkbox wasn't clicked!");
+                System.out.println(i + 1 + " checkbox wasn't clicked!");
             }
+        }
+            BrowserUtils.wait(2);
+            driver.quit();
 
         }
-        BrowserUtils.wait(2);
-        driver.quit();
+
     }
-}

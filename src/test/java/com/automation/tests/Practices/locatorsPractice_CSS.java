@@ -7,7 +7,7 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.support.ui.Select;
 
 public class locatorsPractice_CSS {
-    public static void main(String[] args) {
+   public static void main(String[] args) {
 
 
         WebDriver driver = DriverFactory.createDriver("chrome");
@@ -29,4 +29,5 @@ public class locatorsPractice_CSS {
         BrowserUtils.wait(2);
         driver.quit();
     }
+
 }
